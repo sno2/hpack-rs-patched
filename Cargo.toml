@@ -1,6 +1,6 @@
 [package]
 
-name = "hpack"
+name = "hpack-patched"
 version = "0.3.0"
 authors = ["Marko Lalic <marko.lalic@gmail.com>"]
 
@@ -8,9 +8,9 @@ exclude = [
     "fixtures/*",
 ]
 
-description = "A library implementing HPACK coding"
-repository = "https://github.com/mlalic/hpack-rs"
-homepage = "https://github.com/mlalic/hpack-rs"
+description = "A library implementing HPACK coding. Patched from the original crate."
+repository = "https://github.com/sno2/hpack-rs-patched"
+homepage = "https://github.com/sno2/hpack-rs-patched"
 readme = "README.md"
 license = "MIT"
 keywords = ["hpack", "http2", "encoding", "decoding"]
